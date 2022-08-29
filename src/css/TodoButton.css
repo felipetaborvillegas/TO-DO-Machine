@@ -6,13 +6,11 @@
     border: 5px burlywood solid;
     background: transparent;
     font-weight: bold;
-    margin-left: 340px;
-    margin-top: 50px;
+    margin-top: 30px;
     color: burlywood;
 }
 
 .button-container{
     text-align: center;
-    position: absolute;
-    right: 48%; 
+    width: 100%;
 }

@@ -1,0 +1,5 @@
+section {
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+}

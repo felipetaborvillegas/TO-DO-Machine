@@ -1,0 +1,41 @@
+li {
+    height: 100px;
+    border: 2px black solid;
+    width: 350px;
+    list-style: none;
+}
+
+.close{
+    position: relative;
+    left: 337px;
+    top: 22px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.ready {
+    text-decoration: line-through;
+}
+
+.task .done{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    color: rgba(0,255,0,0.7);
+}
+
+.task .undone{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+

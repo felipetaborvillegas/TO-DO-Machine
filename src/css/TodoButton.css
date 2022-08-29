@@ -1,0 +1,17 @@
+.initial-button{
+    position: relative;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px; 
+    font-size: 45px;
+    border: 5px burlywood solid;
+    background: transparent;
+    font-weight: bold;
+    margin-left: 340px;
+    margin-top: 50px;
+    color: burlywood;
+}
+
+.button-container{
+    text-align: center;
+}

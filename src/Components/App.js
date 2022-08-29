@@ -117,6 +117,9 @@ function App(props) {
           />
         ))}
       </TodoList>
+      <CreateTodoButton
+        setOpenModal={setOpenModal}
+      />
       {openModal && (
       <Modal>
           <TodoForm
@@ -125,10 +128,6 @@ function App(props) {
             setOpenModal={setOpenModal}
           />
       </Modal>)}
-
-      <CreateTodoButton
-        setOpenModal={setOpenModal}
-      />
     </div>
 );
 }

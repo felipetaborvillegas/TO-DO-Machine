@@ -1,5 +1,4 @@
 .initial-button{
-    position: relative;
     border-radius: 50%;
     width: 60px;
     height: 60px; 
@@ -14,4 +13,6 @@
 
 .button-container{
     text-align: center;
+    position: absolute;
+    right: 48%; 
 }
